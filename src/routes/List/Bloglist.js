@@ -9,7 +9,7 @@ class BlogList extends React.Component {
   render() {
     return(
       <div>
-        <Layout>
+        <Layout style={{ backgroundColor: '#fff'}}>
           <Header className='title'>
             <span>xuyu'sblog</span>
           </Header>
@@ -17,7 +17,12 @@ class BlogList extends React.Component {
             <ul>
               <li>
                 <h2 className='main_title'>this is title</h2>
-                <p className='content'>this ithis is contentthis is contentthis is contentthis is contents content!!!</p>
+                <p className='content'>this ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis is contentthis is contentthis is contents content!!!</p>
+                <p className='time'>time:1995/04/12</p>
+              </li>
+              <li>
+                <h2 className='main_title'>this is title</h2>
+                <p className='content'>this ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis is contentthis is contentthis is contents content!!!</p>
                 <p className='time'>time:1995/04/12</p>
               </li>
               <li>
