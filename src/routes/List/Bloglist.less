@@ -1,4 +1,7 @@
 :global{
+  .ant-divider-horizontal.ant-divider-with-text:before, .ant-divider-horizontal.ant-divider-with-text:after{
+    border-top: 1px solid #333;
+  }
   .title{
     color: #fff;
     text-align: center;
@@ -12,10 +15,34 @@
     padding-bottom: 100px;
     ul{
       list-style: none;
-      padding: 0 20px;
+      padding: 0 10px;
       margin: 0;
       li{
+        .main_divider{
+          padding-bottom: 10px;
+          transition-property: font-size, color;
+          transition-duration: .5s;
+        }
+        .main_title{
+          transition-property: font-size, color;
+          transition-duration: .5s;
+        }
+        padding: 0 10px;
         margin: 20px;
+        &:hover{
+          cursor: pointer;
+          .main_title{
+            font-size: 27px;
+            color: #673ab7;
+          }
+          .main_divider{
+            font-size: 20px;
+            color: #673ab7;
+          }
+          .ant-divider-horizontal.ant-divider-with-text:before, .ant-divider-horizontal.ant-divider-with-text:after{
+            border-top: 2px solid #673ab7;
+          }
+        }
       }
       p{
         padding-bottom: 15px;

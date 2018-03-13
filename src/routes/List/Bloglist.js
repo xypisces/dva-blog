@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Layout, List, Avatar  } from 'antd';
+import { Divider, Layout, List, Avatar  } from 'antd';
 import './Bloglist.less';
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -17,23 +17,19 @@ class BlogList extends React.Component {
             <ul>
               <li>
                 <h2 className='main_title'>this is title</h2>
-                <p className='content'>this ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis is contentthis is contentthis is contents content!!!</p>
-                <p className='time'>time:1995/04/12</p>
+                <Divider className='main_divider'>2018.02.13</Divider>
               </li>
               <li>
                 <h2 className='main_title'>this is title</h2>
-                <p className='content'>this ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis isthis ithis is contentthis is contentthis is contentthis is contents content!!!</p>
-                <p className='time'>time:1995/04/12</p>
+                <Divider className='main_divider'>2018.02.13</Divider>
               </li>
               <li>
                 <h2 className='main_title'>this is title</h2>
-                <p className='content'>this ithis is contentthis is contentthis is contentthis is contents content!!!</p>
-                <p className='time'>time:1995/04/12</p>
+                <Divider className='main_divider'>2018.02.13</Divider>
               </li>
               <li>
                 <h2 className='main_title'>this is title</h2>
-                <p className='content'>this ithis is contentthis is contentthis is contentthis is contents content!!!</p>
-                <p className='time'>time:1995/04/12</p>
+                <Divider className='main_divider'>2018.02.13</Divider>
               </li>
             </ul>
           </Content>
