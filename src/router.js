@@ -4,6 +4,7 @@ import IndexPage from './routes/IndexPage';
 import BlogList from './routes/List/Bloglist';
 import List from './components/List';
 import Indexs from './routes/Index/index';
+import Detail from './routes/Detail/detail';
 
 function RouterConfig({ history }) {
   return (
@@ -12,6 +13,7 @@ function RouterConfig({ history }) {
         <Route path="/" exact component={IndexPage} />
         <Route path="/indexs" exact component={Indexs} />
         <Route path="/list" exact component={BlogList} />
+        <Route path="/detail" exact component={Detail} />
         <Route path="/lists" exact component={List} />
       </Switch>
     </Router>
