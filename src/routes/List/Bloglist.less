@@ -1,8 +1,9 @@
 :global{
   .ant-divider-horizontal.ant-divider-with-text:before, .ant-divider-horizontal.ant-divider-with-text:after{
-    border-top: 1px solid #333;
+    border-top: 1px solid #ccc;
   }
   .title{
+    cursor: pointer;
     color: #fff;
     text-align: center;
     span{
@@ -10,7 +11,7 @@
     }
   }
   .main{
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     padding-bottom: 100px;
     ul{
@@ -24,6 +25,7 @@
           transition-duration: .5s;
         }
         .main_title{
+          font-weight: bold;
           transition-property: font-size, color;
           transition-duration: .5s;
         }
@@ -33,14 +35,14 @@
           cursor: pointer;
           .main_title{
             font-size: 27px;
-            color: #673ab7;
+            color: #f75357;
           }
           .main_divider{
             font-size: 20px;
-            color: #673ab7;
+            color: #f75357;
           }
           .ant-divider-horizontal.ant-divider-with-text:before, .ant-divider-horizontal.ant-divider-with-text:after{
-            border-top: 2px solid #673ab7;
+            border-top: 2px solid #f75357;
           }
         }
       }
