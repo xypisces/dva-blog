@@ -12,7 +12,7 @@ export default {
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line
       history.listen(({ pathname }) => {
-        if (pathname === '/indexs') {
+        if (pathname === '/') {
           dispatch({ type: 'fetch'})
         }
       });
