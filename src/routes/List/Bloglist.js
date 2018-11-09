@@ -15,7 +15,7 @@ class BlogList extends React.Component {
   }
   componentDidMount () {
     if(this.props.datas.length === 0){
-      this.props.dispatch(routerRedux.push('/indexs'))
+      this.props.dispatch(routerRedux.push('/'))
     }
   }
   gotoDetail = (i) => {
